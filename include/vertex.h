@@ -11,6 +11,8 @@ struct Vertex {
     Vertex(unsigned int vid);
 };
 
+std::unique_ptr<Vertex> create_vertex(unsigned int id);
+
 } // namespace graph
 
 #endif // _VERTEX_H
