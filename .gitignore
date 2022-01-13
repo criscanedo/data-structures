@@ -1,0 +1,4 @@
+*.out
+ctags
+*.o
+Makefile
